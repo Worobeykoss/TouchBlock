@@ -2,8 +2,27 @@
 
 **English** | [Русский](README.ru.md)
 
-An Android app that disables the touchscreen in selected rectangular areas of the screen.
-Useful when a damaged screen registers phantom touches, or to protect part of the screen from accidental taps.
+**Stop phantom touches on Android by disabling the touchscreen in the part of the screen where they happen.**
+
+Phantom (ghost) touches are when the phone taps, swipes or types by itself: apps open on their own,
+the notification shade pulls down, random letters appear. Often the phantom touches come from one area
+of the screen, such as an edge or a corner. Touch Block lets you draw a zone over that area, and the phone
+ignores every touch inside it. The rest of the screen keeps working, so the phone stays usable.
+
+I made this app after my Google Pixel 8 started registering phantom touches. It works on any phone with Android 8.0 or newer.
+
+It can also be used to protect part of the screen from accidental taps.
+
+## Finding where the phantom touches happen
+
+1. Turn on Developer options: Settings → About phone → tap **Build number** 7 times.
+2. In Settings → System → Developer options, turn on **Show taps** (or **Pointer location**).
+3. Every touch, including phantom ones, is now drawn on the screen. Watch where they appear, then cover that spot with a zone.
+
+This is a workaround, not a repair. If phantom touches show up all over the screen, the display most likely needs replacing.
+If they only happen while charging, try a different charger and cable first.
+
+## Features
 
 - Add as many zones as you need. Draw them with your finger right on top of the current screen, then move and resize them.
 - Works on top of everything: in any app and in Settings, over the status bar, navigation buttons, keyboard and lock screen.
@@ -11,8 +30,6 @@ Useful when a damaged screen registers phantom touches, or to protect part of th
 - Zones can be highlighted in red or made invisible.
 - A notification with Pause, Zones and Turn off buttons.
 - English and Russian UI.
-
-Requires Android 8.0 or newer.
 
 ## Installation
 

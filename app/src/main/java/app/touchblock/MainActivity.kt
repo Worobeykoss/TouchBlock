@@ -27,7 +27,7 @@ class MainActivity : Activity(), SharedPreferences.OnSharedPreferenceChangeListe
     private lateinit var zonesText: TextView
     private lateinit var showZonesSwitch: Switch
 
-    /** Переключатели меняются из кода — их слушатели в это время молчат. */
+    /** Переключатели меняются из кода - их слушатели в это время молчат. */
     private var updating = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -99,7 +99,7 @@ class MainActivity : Activity(), SharedPreferences.OnSharedPreferenceChangeListe
             openAccessibilitySettings()
             return
         }
-        // Без зон блокировать нечего — сразу открываем редактор
+        // Без зон блокировать нечего - сразу открываем редактор
         if (prefs.zones.isEmpty()) service.openEditor()
     }
 
@@ -138,7 +138,7 @@ class MainActivity : Activity(), SharedPreferences.OnSharedPreferenceChangeListe
         }
     }
 
-    /** Рисуем под системными панелями и сами отступаем от них — одинаково на всех версиях. */
+    /** Рисуем под системными панелями и сами отступаем от них - одинаково на всех версиях. */
     private fun setupEdgeToEdge() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             // С Android 15 это поведение по умолчанию, поэтому метод помечен устаревшим

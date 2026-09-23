@@ -117,7 +117,7 @@ class BlockerService : AccessibilityService(), SharedPreferences.OnSharedPrefere
         updateNotification()
     }
 
-    /** [result] — новые зоны или null, если настройку отменили. */
+    /** [result] - новые зоны или null, если настройку отменили. */
     private fun closeEditor(result: List<Zone>?) {
         editor?.let { windowManager.removeView(it) }
         editor = null

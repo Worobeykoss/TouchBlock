@@ -32,7 +32,7 @@ data class ScreenGeometry(val width: Int, val height: Int, val rotation: Int) {
         )
     }
 
-    // ROTATION_90 — телефон повёрнут против часовой стрелки, ROTATION_270 — по часовой.
+    // ROTATION_90 - телефон повёрнут против часовой стрелки, ROTATION_270 - по часовой.
     private fun naturalToScreen(x: Float, y: Float) = when (rotation) {
         Surface.ROTATION_90 -> PointF(y, naturalWidth - x)
         Surface.ROTATION_180 -> PointF(naturalWidth - x, naturalHeight - y)

@@ -233,7 +233,7 @@ class ZoneEditorView(
         refreshControls()
     }
 
-    /** Запоминает, за какие края выбранной зоны взялся палец. false — ни за какие. */
+    /** Запоминает, за какие края выбранной зоны взялся палец. false - ни за какие. */
     private fun grabEdges(rect: RectF, x: Float, y: Float): Boolean {
         if (x < rect.left - edgeTolerance || x > rect.right + edgeTolerance ||
             y < rect.top - edgeTolerance || y > rect.bottom + edgeTolerance

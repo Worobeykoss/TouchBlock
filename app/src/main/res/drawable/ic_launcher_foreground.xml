@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Корпус телефона -->
+    <path
+        android:pathData="M44,28H64A5,5 0,0 1,69 33V75A5,5 0,0 1,64 80H44A5,5 0,0 1,39 75V33A5,5 0,0 1,44 28Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF" />
+    <!-- Заблокированная зона -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M43,40H65V58H43Z" />
+    <!-- Знак запрета -->
+    <path
+        android:pathData="M48.5,49a5.5,5.5 0,1 0,11 0a5.5,5.5 0,1 0,-11 0M50.1,52.9L57.9,45.1"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFFFFF" />
+</vector>

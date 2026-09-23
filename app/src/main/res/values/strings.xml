@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Touch Block</string>
+    <string name="app_subtitle">Disables the touchscreen in selected areas of the screen</string>
+
+    <string name="permission_text">Turn on the “Touch Block” service in Accessibility settings. Android hides regular overlay windows in Settings and in some apps, but accessibility service windows work everywhere.</string>
+    <string name="permission_open">Open Accessibility settings</string>
+    <string name="restricted_text">If the service toggle is greyed out and you see a “Restricted setting” message: open App info, tap ⋮ in the top-right corner and allow restricted settings. Then turn the service on again.</string>
+    <string name="restricted_open">App info</string>
+    <string name="service_not_running">The service isn\'t running. Turn it on in Accessibility settings.</string>
+
+    <string name="accessibility_summary">Disables touch in selected areas of the screen</string>
+    <string name="accessibility_description">Shows transparent areas on top of the screen where touches are ignored. The service does not read screen content or track your actions: it only needs windows that stay on top of all apps.</string>
+
+    <string name="blocking_enabled">Blocking enabled</string>
+    <string name="status_on">Touches in the selected zones are ignored</string>
+    <string name="status_paused">Paused: zones are temporarily not blocked</string>
+    <string name="status_off">Off</string>
+
+    <string name="edit_zones">Set up zones</string>
+    <string name="zones_count">Zones configured: %d</string>
+
+    <string name="show_zones">Highlight zones</string>
+    <string name="show_zones_hint">Blocked areas are shown as semi-transparent red rectangles. When this is off, zones are invisible but still block touches.</string>
+
+    <string name="how_to_title">How to use</string>
+    <string name="how_to">1. Tap “Set up zones” and drag your finger across the screen to draw a rectangle. You can add several zones.\n2. To change a zone, tap it. Drag an edge or corner to resize it, drag the middle to move it.\n3. Tap “Done” and turn blocking on.\n\nZones work on top of everything: in any app and in Settings, over the status bar, navigation buttons, keyboard and lock screen. Blocking turns back on by itself after a restart.\n\nWhile blocking is on, a notification stays in the shade. Use it to pause blocking, edit zones or turn blocking off.\n\nA zone is tied to a physical area of the screen and stays in place when you rotate the phone.\n\nWith gesture navigation, Android handles the swipe up from the bottom (Home) before any app. If phantom touches at the bottom keep sending you to the home screen, switch to 3-button navigation and cover it with a zone.</string>
+
+    <string name="escape_title">If a zone covers something you need</string>
+    <string name="escape_text">• Tap “Pause” or “Turn off” in the notification.\n• Set up the service shortcut in advance: Accessibility → Touch Block → shortcut (volume keys). Then you can turn the service off by holding both volume keys for 3 seconds.\n• After a restart the service doesn\'t run until the first unlock, so zones won\'t get in the way of entering your PIN.</string>
+
+    <string name="channel_name">Touch blocking</string>
+    <string name="notif_active">Touch blocking is on</string>
+    <string name="notif_paused">Touch blocking is paused</string>
+    <string name="notif_editing">Editing zones</string>
+    <string name="notif_zones">Blocked zones: %d</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_edit">Zones</string>
+    <string name="action_stop">Turn off</string>
+
+    <string name="editor_hint">Drag your finger across the screen\nto draw a zone</string>
+    <string name="editor_tip">Drag an edge to resize, the middle to move</string>
+    <string name="editor_delete">Delete</string>
+    <string name="editor_clear">Clear</string>
+    <string name="editor_cancel">Cancel</string>
+    <string name="editor_done">Done</string>
+</resources>

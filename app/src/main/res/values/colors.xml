@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#37474F</color>
+    <color name="primary_dark">#263238</color>
+    <color name="accent">#E53935</color>
+    <color name="header_subtitle">#CCFFFFFF</color>
+    <color name="nav_bar">#80000000</color>
+
+    <color name="warning_bg">#FFF3E0</color>
+    <color name="warning_text">#5D4037</color>
+
+    <color name="zone_fill">#40FF1744</color>
+    <color name="zone_stroke">#E6FF1744</color>
+    <color name="zone_selected_fill">#40FFC400</color>
+    <color name="zone_selected_stroke">#FFFFC400</color>
+
+    <color name="editor_dim">#59000000</color>
+    <color name="toolbar_bg">#E6212121</color>
+    <color name="toolbar_tip">#B3FFFFFF</color>
+    <color name="toolbar_button">#26FFFFFF</color>
+    <color name="toolbar_ripple">#40FFFFFF</color>
+
+    <color name="icon_background">#37474F</color>
+</resources>
